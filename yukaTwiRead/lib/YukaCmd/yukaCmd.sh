@@ -1,0 +1,1 @@
+/home/sato/madefile/Source/3deviS/twitter/../YukaCmd/yukaCmd.sh
