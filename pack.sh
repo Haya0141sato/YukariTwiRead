@@ -3,7 +3,7 @@
 outDir=yukaTwiRead
 
 if [ -e ${outDir} ];then
-	rm -r ${outDir}
+	rm -rf ${outDir}
 fi
 if [ -e yukaTwiRead.zip ];then
 	rm yukaTwiRead.zip

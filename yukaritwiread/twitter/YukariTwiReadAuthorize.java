@@ -128,6 +128,7 @@ System.exit(1);
 private static AccessToken getAccessToken() throws TwitterException
 	{
 Twitter twitter = TwitterFactory.getSingleton();
+twitter.setOAuthAccessToken(null);
 RequestToken requestToken= twitter.getOAuthRequestToken();
 AccessToken act = null;
 BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
