@@ -14,6 +14,7 @@ private static boolean nowComMode=true;
 public static void main(String[] args) throws TwitterException
 	{
 System.out.println("このプログラムはApacheLicense2.0でライセンスされているライブラリtwitter4jを使用しています。ライセンス本文はLICENSE/twitter4j/LICENSE.txtを参照して下さい。");
+System.out.println("このプログラムはMITライセンスでライセンスされているプログラムYukaCmdを使用しています。ライセンス本文はLICENSE/YukaCmdを参照して下さい。");
 String userID=null;
 if(args.length>0)
 		{
